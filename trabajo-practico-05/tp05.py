@@ -306,10 +306,11 @@ def exercise_09():
 
     
     def play(board, row, col, player) -> bool: 
-        """colaca la pieza en el tablero, retorna True en caso de exito
+        """coloca la pieza en el tablero, retorna:
+        True en caso de éxito
         False, en caso de error (rango invalido o celda ocupada)
         """
-        
+
         # se valida que la fila seleccionada se valida        
         if row not in range(len(board)):
             return False
