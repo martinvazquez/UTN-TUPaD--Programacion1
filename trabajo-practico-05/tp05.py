@@ -167,7 +167,10 @@ def exercise_06():
     # se arma una lista con los elementos del 
     # segundo elemento de la lista hasta el final (numbers[1:] es [1, 2, 3, 4, 5])
     # y lo concatenamos el primer elemento de la lista al final (number[:1] es [0])
-    numbers = numbers[1:] + numbers[:1]
+    # numbers = numbers[1:] + numbers[:1]
+
+    # CORRECCION: lo anterior está, rota a la izquierda, pero se pide rotar a la derecha
+    numbers = numbers[-1:] + numbers[:-1]
     print("lista rotada:", numbers)
     
 
