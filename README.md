@@ -6,3 +6,5 @@
 [Trabajo Practico N° 3](trabajo-practico-03/tp03.py)
 
 [Trabajo Practico N° 4](trabajo-practico-04/tp04.py)
+
+[Trabajo Practico N° 5 - Listas](trabajo-practico-05/tp05.py)
