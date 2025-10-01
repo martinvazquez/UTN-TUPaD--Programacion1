@@ -233,7 +233,7 @@ def exercise_08():
     # listas de cadenas con la longitud de la matriz para mejorar la visualizacion
     # con solo modificar estas listas se modifica la lista resultante
     students = ["Galileo", "Marie", "John", "Hedy", "Alan",]
-    courses = ["Programacion", "Matematicas", "Bases de Datos", "asas"]
+    courses = ["Programacion", "Matematicas", "Bases de Datos", "Org. Emp."]
 
     # list comprehensions para cargar las notas aleatoriamente y de tamaño dinámico
     # https://docs.python.org/3.8/tutorial/datastructures.html#list-comprehensions
